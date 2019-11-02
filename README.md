@@ -13,8 +13,9 @@ $ [sudo] gem install cocoapods
 $ pod install
 ```
 ## Open Podfile
+
 Open `Podfile`, and add your dependencies.
 
 `pod 'Parse'`
-```bash
- pod 'KILabel', '1.0.0'```
+
+`pod 'KILabel', '1.0.0'
