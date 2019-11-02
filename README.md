@@ -18,4 +18,4 @@ Open `Podfile`, and add your dependencies.
 
 `pod 'Parse'`
 
-`pod 'KILabel', '1.0.0'
+`pod 'KILabel', '1.0.0'`
