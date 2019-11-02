@@ -3,25 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		D80C87E322D18EDF00E095F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87E222D18EDF00E095F2 /* AppDelegate.swift */; };
-		D80C87E522D18EDF00E095F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87E422D18EDF00E095F2 /* ViewController.swift */; };
 		D80C87E822D18EDF00E095F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C87E622D18EDF00E095F2 /* Main.storyboard */; };
 		D80C87EA22D18EE000E095F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D80C87E922D18EE000E095F2 /* Assets.xcassets */; };
 		D80C87ED22D18EE000E095F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D80C87EB22D18EE000E095F2 /* LaunchScreen.storyboard */; };
+		D80C87F622D190BE00E095F2 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87F522D190BE00E095F2 /* CommentCell.swift */; };
+		D80C87F822D190D000E095F2 /* CommentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87F722D190D000E095F2 /* CommentVC.swift */; };
+		D80C87FB22D190F600E095F2 /* EditVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87FA22D190F600E095F2 /* EditVC.swift */; };
+		D80C87FE22D1911500E095F2 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C87FD22D1911500E095F2 /* FeedVC.swift */; };
+		D80C880122D1913700E095F2 /* FollowersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880022D1913700E095F2 /* FollowersCell.swift */; };
+		D80C880322D1914600E095F2 /* FollowersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880222D1914600E095F2 /* FollowersVC.swift */; };
+		D80C880622D1916400E095F2 /* GuestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880522D1916400E095F2 /* GuestVC.swift */; };
+		D80C880922D1918800E095F2 /* HashtagsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880822D1918800E095F2 /* HashtagsVC.swift */; };
+		D80C880C22D191A500E095F2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880B22D191A500E095F2 /* HeaderView.swift */; };
+		D80C880F22D191C100E095F2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C880E22D191C100E095F2 /* HomeVC.swift */; };
+		D80C881222D191E900E095F2 /* NavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881122D191E900E095F2 /* NavVC.swift */; };
+		D80C881722D1921D00E095F2 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881622D1921D00E095F2 /* NewsCell.swift */; };
+		D80C881922D1922F00E095F2 /* NewsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881822D1922F00E095F2 /* NewsVC.swift */; };
+		D80C881C22D1924E00E095F2 /* PictureCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881B22D1924E00E095F2 /* PictureCell.swift */; };
+		D80C881F22D1926A00E095F2 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C881E22D1926A00E095F2 /* PostCell.swift */; };
+		D80C882122D1928100E095F2 /* PostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882022D1928100E095F2 /* PostVC.swift */; };
+		D80C882422D192BB00E095F2 /* ResetPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882322D192BB00E095F2 /* ResetPasswordVC.swift */; };
+		D80C882722D192DE00E095F2 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882622D192DE00E095F2 /* SignInVC.swift */; };
+		D80C882A22D192FA00E095F2 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882922D192FA00E095F2 /* SignUpVC.swift */; };
+		D80C882D22D1931B00E095F2 /* TabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882C22D1931B00E095F2 /* TabbarVC.swift */; };
+		D80C883022D1933800E095F2 /* UploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C882F22D1933800E095F2 /* UploadVC.swift */; };
+		D80C883322D1935400E095F2 /* UsersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80C883222D1935400E095F2 /* UsersVC.swift */; };
+		D80C883722D195D600E095F2 /* Pacifico.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D80C883622D195D600E095F2 /* Pacifico.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D80C87DF22D18EDF00E095F2 /* Mountgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mountgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D80C87E222D18EDF00E095F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D80C87E422D18EDF00E095F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D80C87E722D18EDF00E095F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D80C87E922D18EE000E095F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D80C87EC22D18EE000E095F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D80C87EE22D18EE000E095F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D80C87F522D190BE00E095F2 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		D80C87F722D190D000E095F2 /* CommentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentVC.swift; sourceTree = "<group>"; };
+		D80C87FA22D190F600E095F2 /* EditVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVC.swift; sourceTree = "<group>"; };
+		D80C87FD22D1911500E095F2 /* FeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		D80C880022D1913700E095F2 /* FollowersCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersCell.swift; sourceTree = "<group>"; };
+		D80C880222D1914600E095F2 /* FollowersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowersVC.swift; sourceTree = "<group>"; };
+		D80C880522D1916400E095F2 /* GuestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestVC.swift; sourceTree = "<group>"; };
+		D80C880822D1918800E095F2 /* HashtagsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashtagsVC.swift; sourceTree = "<group>"; };
+		D80C880B22D191A500E095F2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		D80C880E22D191C100E095F2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		D80C881122D191E900E095F2 /* NavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavVC.swift; sourceTree = "<group>"; };
+		D80C881622D1921D00E095F2 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		D80C881822D1922F00E095F2 /* NewsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVC.swift; sourceTree = "<group>"; };
+		D80C881B22D1924E00E095F2 /* PictureCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureCell.swift; sourceTree = "<group>"; };
+		D80C881E22D1926A00E095F2 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D80C882022D1928100E095F2 /* PostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostVC.swift; sourceTree = "<group>"; };
+		D80C882322D192BB00E095F2 /* ResetPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordVC.swift; sourceTree = "<group>"; };
+		D80C882622D192DE00E095F2 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		D80C882922D192FA00E095F2 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		D80C882C22D1931B00E095F2 /* TabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarVC.swift; sourceTree = "<group>"; };
+		D80C882F22D1933800E095F2 /* UploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadVC.swift; sourceTree = "<group>"; };
+		D80C883222D1935400E095F2 /* UsersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersVC.swift; sourceTree = "<group>"; };
+		D80C883522D193A700E095F2 /* Mountgram-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Mountgram-Bridging-Header.h"; sourceTree = "<group>"; };
+		D80C883622D195D600E095F2 /* Pacifico.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pacifico.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +85,7 @@
 			children = (
 				D80C87E122D18EDF00E095F2 /* Mountgram */,
 				D80C87E022D18EDF00E095F2 /* Products */,
+				F1596F512D51CBE317182B22 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +100,196 @@
 		D80C87E122D18EDF00E095F2 /* Mountgram */ = {
 			isa = PBXGroup;
 			children = (
+				D80C883422D1939000E095F2 /* Other */,
+				D80C883122D1934500E095F2 /* Users */,
+				D80C882E22D1932900E095F2 /* Upload */,
+				D80C882B22D1930B00E095F2 /* Tabbar */,
+				D80C882822D192EB00E095F2 /* SignUp */,
+				D80C882522D192CF00E095F2 /* SignIn */,
+				D80C882222D1928E00E095F2 /* Resetpassword */,
+				D80C881D22D1925900E095F2 /* Post */,
+				D80C881A22D1923D00E095F2 /* Picture */,
+				D80C881322D191F500E095F2 /* NewsCell */,
+				D80C881022D191D800E095F2 /* Nav */,
+				D80C880D22D191B100E095F2 /* Home */,
+				D80C880A22D1919400E095F2 /* Header */,
+				D80C880722D1917200E095F2 /* Hashtags */,
+				D80C880422D1915400E095F2 /* Guest */,
+				D80C87FF22D1912300E095F2 /* Followers */,
+				D80C87FC22D1910500E095F2 /* Feed */,
+				D80C87F922D190E000E095F2 /* Edit */,
+				D80C87F422D190A800E095F2 /* Comment */,
 				D80C87E222D18EDF00E095F2 /* AppDelegate.swift */,
-				D80C87E422D18EDF00E095F2 /* ViewController.swift */,
 				D80C87E622D18EDF00E095F2 /* Main.storyboard */,
 				D80C87E922D18EE000E095F2 /* Assets.xcassets */,
 				D80C87EB22D18EE000E095F2 /* LaunchScreen.storyboard */,
 				D80C87EE22D18EE000E095F2 /* Info.plist */,
 			);
 			path = Mountgram;
+			sourceTree = "<group>";
+		};
+		D80C87F422D190A800E095F2 /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				D80C87F522D190BE00E095F2 /* CommentCell.swift */,
+				D80C87F722D190D000E095F2 /* CommentVC.swift */,
+			);
+			name = Comment;
+			sourceTree = "<group>";
+		};
+		D80C87F922D190E000E095F2 /* Edit */ = {
+			isa = PBXGroup;
+			children = (
+				D80C87FA22D190F600E095F2 /* EditVC.swift */,
+			);
+			name = Edit;
+			sourceTree = "<group>";
+		};
+		D80C87FC22D1910500E095F2 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				D80C87FD22D1911500E095F2 /* FeedVC.swift */,
+			);
+			name = Feed;
+			sourceTree = "<group>";
+		};
+		D80C87FF22D1912300E095F2 /* Followers */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880022D1913700E095F2 /* FollowersCell.swift */,
+				D80C880222D1914600E095F2 /* FollowersVC.swift */,
+			);
+			name = Followers;
+			sourceTree = "<group>";
+		};
+		D80C880422D1915400E095F2 /* Guest */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880522D1916400E095F2 /* GuestVC.swift */,
+			);
+			name = Guest;
+			sourceTree = "<group>";
+		};
+		D80C880722D1917200E095F2 /* Hashtags */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880822D1918800E095F2 /* HashtagsVC.swift */,
+			);
+			name = Hashtags;
+			sourceTree = "<group>";
+		};
+		D80C880A22D1919400E095F2 /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880B22D191A500E095F2 /* HeaderView.swift */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		D80C880D22D191B100E095F2 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D80C880E22D191C100E095F2 /* HomeVC.swift */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		D80C881022D191D800E095F2 /* Nav */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881122D191E900E095F2 /* NavVC.swift */,
+			);
+			name = Nav;
+			sourceTree = "<group>";
+		};
+		D80C881322D191F500E095F2 /* NewsCell */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881622D1921D00E095F2 /* NewsCell.swift */,
+				D80C881822D1922F00E095F2 /* NewsVC.swift */,
+			);
+			name = NewsCell;
+			sourceTree = "<group>";
+		};
+		D80C881A22D1923D00E095F2 /* Picture */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881B22D1924E00E095F2 /* PictureCell.swift */,
+			);
+			name = Picture;
+			sourceTree = "<group>";
+		};
+		D80C881D22D1925900E095F2 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				D80C881E22D1926A00E095F2 /* PostCell.swift */,
+				D80C882022D1928100E095F2 /* PostVC.swift */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		D80C882222D1928E00E095F2 /* Resetpassword */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882322D192BB00E095F2 /* ResetPasswordVC.swift */,
+			);
+			name = Resetpassword;
+			sourceTree = "<group>";
+		};
+		D80C882522D192CF00E095F2 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882622D192DE00E095F2 /* SignInVC.swift */,
+			);
+			name = SignIn;
+			sourceTree = "<group>";
+		};
+		D80C882822D192EB00E095F2 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882922D192FA00E095F2 /* SignUpVC.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		D80C882B22D1930B00E095F2 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882C22D1931B00E095F2 /* TabbarVC.swift */,
+			);
+			name = Tabbar;
+			sourceTree = "<group>";
+		};
+		D80C882E22D1932900E095F2 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				D80C882F22D1933800E095F2 /* UploadVC.swift */,
+			);
+			name = Upload;
+			sourceTree = "<group>";
+		};
+		D80C883122D1934500E095F2 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				D80C883222D1935400E095F2 /* UsersVC.swift */,
+			);
+			name = Users;
+			sourceTree = "<group>";
+		};
+		D80C883422D1939000E095F2 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D80C883622D195D600E095F2 /* Pacifico.ttf */,
+				D80C883522D193A700E095F2 /* Mountgram-Bridging-Header.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		F1596F512D51CBE317182B22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +352,7 @@
 			files = (
 				D80C87ED22D18EE000E095F2 /* LaunchScreen.storyboard in Resources */,
 				D80C87EA22D18EE000E095F2 /* Assets.xcassets in Resources */,
+				D80C883722D195D600E095F2 /* Pacifico.ttf in Resources */,
 				D80C87E822D18EDF00E095F2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +364,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D80C87E522D18EDF00E095F2 /* ViewController.swift in Sources */,
+				D80C881222D191E900E095F2 /* NavVC.swift in Sources */,
+				D80C882122D1928100E095F2 /* PostVC.swift in Sources */,
+				D80C882D22D1931B00E095F2 /* TabbarVC.swift in Sources */,
+				D80C87F822D190D000E095F2 /* CommentVC.swift in Sources */,
+				D80C881C22D1924E00E095F2 /* PictureCell.swift in Sources */,
+				D80C880622D1916400E095F2 /* GuestVC.swift in Sources */,
+				D80C882422D192BB00E095F2 /* ResetPasswordVC.swift in Sources */,
+				D80C883322D1935400E095F2 /* UsersVC.swift in Sources */,
+				D80C881922D1922F00E095F2 /* NewsVC.swift in Sources */,
+				D80C882722D192DE00E095F2 /* SignInVC.swift in Sources */,
+				D80C882A22D192FA00E095F2 /* SignUpVC.swift in Sources */,
 				D80C87E322D18EDF00E095F2 /* AppDelegate.swift in Sources */,
+				D80C880322D1914600E095F2 /* FollowersVC.swift in Sources */,
+				D80C87FE22D1911500E095F2 /* FeedVC.swift in Sources */,
+				D80C880C22D191A500E095F2 /* HeaderView.swift in Sources */,
+				D80C880922D1918800E095F2 /* HashtagsVC.swift in Sources */,
+				D80C883022D1933800E095F2 /* UploadVC.swift in Sources */,
+				D80C880122D1913700E095F2 /* FollowersCell.swift in Sources */,
+				D80C87FB22D190F600E095F2 /* EditVC.swift in Sources */,
+				D80C880F22D191C100E095F2 /* HomeVC.swift in Sources */,
+				D80C881722D1921D00E095F2 /* NewsCell.swift in Sources */,
+				D80C87F622D190BE00E095F2 /* CommentCell.swift in Sources */,
+				D80C881F22D1926A00E095F2 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,13 +533,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ3XEU8KQP;
 				INFOPLIST_FILE = Mountgram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fonebayinc.mountgram.Mountgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fonebayinc.mountgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mountgram/Mountgram-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,13 +552,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QJ3XEU8KQP;
 				INFOPLIST_FILE = Mountgram/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.fonebayinc.mountgram.Mountgram;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fonebayinc.mountgram;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Mountgram/Mountgram-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
